@@ -1,0 +1,48 @@
+.primary-btn {
+  transition: all 0.3s ease;
+}
+
+.primary-btn:hover {
+  background-color: #5a67d8;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.3);
+}
+
+.social-btn {
+  transition: all 0.3s ease;
+}
+
+.social-btn:hover {
+  background-color: #f9fafb;
+  border-color: #667eea;
+  transform: translateY(-1px);
+}
+
+input {
+  transition: all 0.3s ease;
+}
+
+input:focus {
+  border-color: #667eea;
+  box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+  background-color: rgb(255, 255, 255);
+}
+
+.forgot-link:hover {
+  text-decoration: underline;
+}
+
+.switch-btn:hover {
+  text-decoration: underline;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .left-side {
+    display: none;
+  }
+  
+  .right-side {
+    padding: 1rem;
+  }
+}
